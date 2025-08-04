@@ -1,0 +1,34 @@
+experiment:
+  name: "VP-BO Experiment"
+  output_dir: "./results"
+
+json_dir: "C:\\Users\\ext.saad.hussainshaf\\Desktop\\data\\json data\\archive2\\archive"
+
+dest_file: "C:\\Users\\ext.saad.hussainshaf\\Desktop\\data\\"
+df_encoded: "C:\\Users\\ext.saad.hussainshaf\\Desktop\\data\\df_encoded.csv"
+df_scaled: "C:\\Users\\ext.saad.hussainshaf\\Desktop\\data\\df_scaled.csv"
+
+
+
+filtered_corr_df: "C:\\Users\\ext.saad.hussainshaf\\Desktop\\data\\filtered_corr_df.csv"
+data:
+  path: "./desktop/data/df_encoded.csv"
+  train_split: 0.8
+  shuffle: true
+
+optimization:
+  method: "VP-BO"
+  max_iterations: 100
+  splits: 4           # Number of partitions/blocks
+  div: 10             # Variables per partition
+  acquisition: "EI"   # Expected Improvement
+
+model:
+  type: "GaussianProcess"
+  kernel: "RBF"
+  alpha: 1e-6
+
+logging:
+  level: "INFO"
+  save_checkpoints: true
+
