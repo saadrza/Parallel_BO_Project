@@ -35,7 +35,7 @@ def calculate_score(data: dict) -> dict:
 
 
 # Define the directory path from config or set it directly
-config_path = 'config.yaml'
+config_path = 'config_data_processing.yaml'
 config = OmegaConf.load(config_path)
 json_directory = config.get("json_dir", "./desktop/data/json")
 #./json data\archive'

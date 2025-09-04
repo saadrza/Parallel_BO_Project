@@ -7,7 +7,7 @@ json_dir: "C:\\Users\\saadr\\Desktop\\data\\json data\\archive2\\archive"
 dest_file: "C:\\Users\\saadr\\Desktop\\data\\"
 df_encoded: "C:\\Users\\saadr\\Desktop\\data\\df_encoded.csv"
 df_scaled: "C:\\Users\\saadr\\Desktop\\data\\df_scaled.csv"
-
+outputs: "\\outputs"
 
 
 filtered_corr_df: "C:\\Users\\saadr\\Desktop\\data\\filtered_corr_df.csv"
