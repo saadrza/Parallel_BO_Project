@@ -1,0 +1,91 @@
+2025-09-04 10:12:29 INFO src optimizer_vpbo start trials=1 splits=4 dim=2
+2025-09-04 10:12:29 DEBUG src random seed for splits created shape=(4, 2)
+2025-09-04 10:12:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:12:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:12:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:12:43 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:14:01 INFO src [Eval] thr=0.335, hidden=15, k=7, MRE=0.496454
+2025-09-04 10:14:01 INFO src [Eval] thr=0.335, hidden=15, k=8, MRE=0.266854
+2025-09-04 10:14:01 INFO src [Eval] thr=0.335, hidden=15, k=7, MRE=0.852024
+2025-09-04 10:14:01 INFO src [Eval] thr=0.335, hidden=15, k=5, MRE=0.018056
+2025-09-04 10:14:01 INFO src 
+2025-09-04 10:14:01 INFO src distmod_4 done in 78.088s
+2025-09-04 10:14:01 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:14:14 INFO src [Eval] thr=0.281, hidden=35, k=8, MRE=0.537378
+2025-09-04 10:14:14 INFO src [Eval] thr=0.281, hidden=35, k=11, MRE=0.352008
+2025-09-04 10:14:14 INFO src [Eval] thr=0.281, hidden=35, k=7, MRE=0.612199
+2025-09-04 10:14:14 INFO src [Eval] thr=0.281, hidden=35, k=5, MRE=0.031561
+2025-09-04 10:14:14 INFO src 
+2025-09-04 10:14:14 INFO src distmod_4 done in 91.475s
+2025-09-04 10:14:25 INFO src [Eval] thr=0.882, hidden=111, k=5, MRE=0.455657
+2025-09-04 10:14:25 INFO src [Eval] thr=0.882, hidden=111, k=5, MRE=0.840170
+2025-09-04 10:14:25 INFO src [Eval] thr=0.882, hidden=111, k=5, MRE=0.618958
+2025-09-04 10:14:25 INFO src [Eval] thr=0.882, hidden=111, k=5, MRE=0.012012
+2025-09-04 10:14:25 INFO src 
+2025-09-04 10:14:25 INFO src distmod_4 done in 102.915s
+2025-09-04 10:14:28 INFO src [Eval] thr=0.270, hidden=130, k=8, MRE=0.441407
+2025-09-04 10:14:28 INFO src [Eval] thr=0.270, hidden=130, k=12, MRE=0.234209
+2025-09-04 10:14:28 INFO src [Eval] thr=0.270, hidden=130, k=8, MRE=0.713607
+2025-09-04 10:14:28 INFO src [Eval] thr=0.270, hidden=130, k=5, MRE=0.014299
+2025-09-04 10:14:28 INFO src 
+2025-09-04 10:14:28 INFO src distmod_4 done in 105.443s
+2025-09-04 10:15:28 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.496314
+2025-09-04 10:15:28 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.821062
+2025-09-04 10:15:28 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=1.136222
+2025-09-04 10:15:28 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.020341
+2025-09-04 10:15:28 INFO src 
+2025-09-04 10:15:28 INFO src distmod_4 done in 86.677s
+2025-09-04 10:15:28 INFO src initial eval done n=5
+2025-09-04 10:15:28 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:15:28 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:15:28 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:15:28 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:15:28 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:15:28 INFO src GP models initialized count=4
+2025-09-04 10:15:28 DEBUG src restarts per split=8
+2025-09-04 10:15:29 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:15:29 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:15:29 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:15:29 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:17:20 INFO src [Eval] thr=0.490, hidden=99, k=5, MRE=0.555214
+2025-09-04 10:17:20 INFO src [Eval] thr=0.490, hidden=99, k=5, MRE=1.137586
+2025-09-04 10:17:20 INFO src [Eval] thr=0.490, hidden=99, k=5, MRE=0.516807
+2025-09-04 10:17:20 INFO src [Eval] thr=0.490, hidden=99, k=5, MRE=0.016229
+2025-09-04 10:17:20 INFO src 
+2025-09-04 10:17:20 INFO src distmod_4 done in 111.841s
+2025-09-04 10:17:20 INFO src distmod_4 start n=1 targets=4
+2025-09-04 10:17:26 INFO src [Eval] thr=0.676, hidden=130, k=5, MRE=0.799125
+2025-09-04 10:17:26 INFO src [Eval] thr=0.676, hidden=130, k=5, MRE=1.206259
+2025-09-04 10:17:26 INFO src [Eval] thr=0.676, hidden=130, k=5, MRE=0.503579
+2025-09-04 10:17:26 INFO src [Eval] thr=0.676, hidden=130, k=5, MRE=0.014299
+2025-09-04 10:17:26 INFO src 
+2025-09-04 10:17:26 INFO src distmod_4 done in 117.464s
+2025-09-04 10:17:26 INFO src [Eval] thr=0.218, hidden=163, k=12, MRE=0.448857
+2025-09-04 10:17:26 INFO src [Eval] thr=0.218, hidden=163, k=25, MRE=0.256688
+2025-09-04 10:17:26 INFO src [Eval] thr=0.218, hidden=163, k=12, MRE=0.574210
+2025-09-04 10:17:26 INFO src [Eval] thr=0.218, hidden=163, k=5, MRE=0.029296
+2025-09-04 10:17:26 INFO src 
+2025-09-04 10:17:26 INFO src distmod_4 done in 117.754s
+2025-09-04 10:17:29 INFO src [Eval] thr=0.651, hidden=149, k=5, MRE=0.495980
+2025-09-04 10:17:29 INFO src [Eval] thr=0.651, hidden=149, k=5, MRE=0.843924
+2025-09-04 10:17:29 INFO src [Eval] thr=0.651, hidden=149, k=5, MRE=0.761596
+2025-09-04 10:17:29 INFO src [Eval] thr=0.651, hidden=149, k=5, MRE=0.044378
+2025-09-04 10:17:29 INFO src 
+2025-09-04 10:17:29 INFO src distmod_4 done in 119.977s
+2025-09-04 10:18:37 INFO src [Eval] thr=0.509, hidden=135, k=5, MRE=0.640401
+2025-09-04 10:18:37 INFO src [Eval] thr=0.509, hidden=135, k=5, MRE=0.785782
+2025-09-04 10:18:37 INFO src [Eval] thr=0.509, hidden=135, k=5, MRE=0.608777
+2025-09-04 10:18:37 INFO src [Eval] thr=0.509, hidden=135, k=5, MRE=0.022672
+2025-09-04 10:18:37 INFO src 
+2025-09-04 10:18:37 INFO src distmod_4 done in 76.335s
+2025-09-04 10:18:37 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:18:37 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:18:37 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:18:37 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:18:37 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 10:18:37 INFO src iter=1 evals_total=10 best_current=[0.441407,0.234209,0.503579,0.012012] dt_iter=189.214s dt_total=368.211s
+2025-09-04 10:18:37 INFO src optimizer_vpbo done total_evals=10 total_time=368.213s
+human health - total thr 0.27 hidden 130 MRE 0.44140679545960204
+ecosystem quality - total thr 0.27 hidden 130 MRE 0.23420884512771484
+resources - total thr 0.676 hidden 130 MRE 0.5035794748678518
+Cost thr 0.882 hidden 111 MRE 0.012012393583630088

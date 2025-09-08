@@ -1,0 +1,556 @@
+2025-09-04 13:31:30 INFO src optimizer_vpbo start trials=10 splits=4 dim=2
+2025-09-04 13:31:30 DEBUG src random seed for splits created shape=(4, 2)
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f06a9e02ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f59a2932ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f1612c62ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd501f02ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f45abcbeac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fa8b6002ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f9e67c22ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7ff02b456ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f298926eac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7ff9c58caac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fcf76e36ac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fee98daaac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+2025-09-04 13:31:45 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:31:45 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:31:45 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:31:45 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:33:07 INFO src [Eval] thr=0.340, hidden=26, k=6, MRE=0.630709
+2025-09-04 13:33:07 INFO src [Eval] thr=0.340, hidden=26, k=8, MRE=0.306286
+2025-09-04 13:33:07 INFO src [Eval] thr=0.340, hidden=26, k=6, MRE=0.704887
+2025-09-04 13:33:07 INFO src [Eval] thr=0.340, hidden=26, k=5, MRE=0.013570
+2025-09-04 13:33:07 INFO src 
+2025-09-04 13:33:07 INFO src distmod_4 done in 81.605s
+2025-09-04 13:33:07 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:33:24 INFO src [Eval] thr=0.769, hidden=80, k=5, MRE=0.799108
+2025-09-04 13:33:24 INFO src [Eval] thr=0.769, hidden=80, k=5, MRE=1.396751
+2025-09-04 13:33:24 INFO src [Eval] thr=0.769, hidden=80, k=5, MRE=0.711352
+2025-09-04 13:33:24 INFO src [Eval] thr=0.769, hidden=80, k=5, MRE=0.035168
+2025-09-04 13:33:24 INFO src 
+2025-09-04 13:33:24 INFO src distmod_4 done in 99.153s
+2025-09-04 13:33:36 INFO src [Eval] thr=0.622, hidden=170, k=5, MRE=0.475056
+2025-09-04 13:33:36 INFO src [Eval] thr=0.622, hidden=170, k=5, MRE=1.086974
+2025-09-04 13:33:36 INFO src [Eval] thr=0.622, hidden=170, k=5, MRE=0.538399
+2025-09-04 13:33:36 INFO src [Eval] thr=0.622, hidden=170, k=5, MRE=0.029349
+2025-09-04 13:33:36 INFO src 
+2025-09-04 13:33:36 INFO src distmod_4 done in 110.655s
+2025-09-04 13:33:44 INFO src [Eval] thr=0.057, hidden=185, k=35, MRE=0.161373
+2025-09-04 13:33:44 INFO src [Eval] thr=0.057, hidden=185, k=36, MRE=0.317993
+2025-09-04 13:33:44 INFO src [Eval] thr=0.057, hidden=185, k=35, MRE=0.396387
+2025-09-04 13:33:44 INFO src [Eval] thr=0.057, hidden=185, k=34, MRE=0.003108
+2025-09-04 13:33:44 INFO src 
+2025-09-04 13:33:44 INFO src distmod_4 done in 118.459s
+2025-09-04 13:34:43 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.496314
+2025-09-04 13:34:43 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.821062
+2025-09-04 13:34:43 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=1.136222
+2025-09-04 13:34:43 INFO src [Eval] thr=0.500, hidden=105, k=5, MRE=0.020341
+2025-09-04 13:34:43 INFO src 
+2025-09-04 13:34:43 INFO src distmod_4 done in 95.657s
+2025-09-04 13:34:43 INFO src initial eval done n=5
+2025-09-04 13:34:43 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:34:43 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:34:43 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:34:43 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:34:43 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:34:43 INFO src GP models initialized count=4
+2025-09-04 13:34:43 DEBUG src restarts per split=8
+2025-09-04 13:34:44 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:34:44 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:34:44 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:34:44 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:36:08 INFO src [Eval] thr=0.146, hidden=10, k=27, MRE=0.187047
+2025-09-04 13:36:08 INFO src [Eval] thr=0.146, hidden=10, k=31, MRE=0.106465
+2025-09-04 13:36:08 INFO src [Eval] thr=0.146, hidden=10, k=27, MRE=0.375140
+2025-09-04 13:36:08 INFO src [Eval] thr=0.146, hidden=10, k=9, MRE=0.009503
+2025-09-04 13:36:08 INFO src 
+2025-09-04 13:36:08 INFO src distmod_4 done in 84.352s
+2025-09-04 13:36:08 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:36:26 INFO src [Eval] thr=0.698, hidden=76, k=5, MRE=0.575413
+2025-09-04 13:36:26 INFO src [Eval] thr=0.698, hidden=76, k=5, MRE=1.329246
+2025-09-04 13:36:26 INFO src [Eval] thr=0.698, hidden=76, k=5, MRE=1.046628
+2025-09-04 13:36:26 INFO src [Eval] thr=0.698, hidden=76, k=5, MRE=0.020726
+2025-09-04 13:36:26 INFO src 
+2025-09-04 13:36:26 INFO src distmod_4 done in 101.783s
+2025-09-04 13:36:26 INFO src [Eval] thr=0.000, hidden=30, k=52, MRE=0.419998
+2025-09-04 13:36:26 INFO src [Eval] thr=0.000, hidden=30, k=52, MRE=0.103343
+2025-09-04 13:36:26 INFO src [Eval] thr=0.000, hidden=30, k=52, MRE=0.452576
+2025-09-04 13:36:26 INFO src [Eval] thr=0.000, hidden=30, k=52, MRE=0.004305
+2025-09-04 13:36:26 INFO src 
+2025-09-04 13:36:26 INFO src distmod_4 done in 102.151s
+2025-09-04 13:36:37 INFO src [Eval] thr=0.019, hidden=200, k=36, MRE=0.150095
+2025-09-04 13:36:37 INFO src [Eval] thr=0.019, hidden=200, k=36, MRE=0.206253
+2025-09-04 13:36:37 INFO src [Eval] thr=0.019, hidden=200, k=36, MRE=0.344990
+2025-09-04 13:36:37 INFO src [Eval] thr=0.019, hidden=200, k=36, MRE=0.002815
+2025-09-04 13:36:37 INFO src 
+2025-09-04 13:36:37 INFO src distmod_4 done in 112.524s
+2025-09-04 13:37:34 INFO src [Eval] thr=0.216, hidden=79, k=12, MRE=0.330946
+2025-09-04 13:37:34 INFO src [Eval] thr=0.216, hidden=79, k=25, MRE=0.506831
+2025-09-04 13:37:34 INFO src [Eval] thr=0.216, hidden=79, k=12, MRE=0.234735
+2025-09-04 13:37:34 INFO src [Eval] thr=0.216, hidden=79, k=5, MRE=0.048482
+2025-09-04 13:37:34 INFO src 
+2025-09-04 13:37:34 INFO src distmod_4 done in 85.172s
+2025-09-04 13:37:34 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:37:34 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:37:34 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:37:34 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:37:34 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:37:34 INFO src iter=1 evals_total=10 best_current=[0.150095,0.103343,0.234735,0.002815] dt_iter=170.606s dt_total=363.580s
+2025-09-04 13:37:35 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:37:35 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:37:35 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:37:35 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:38:58 INFO src [Eval] thr=0.408, hidden=30, k=6, MRE=0.622754
+2025-09-04 13:38:58 INFO src [Eval] thr=0.408, hidden=30, k=6, MRE=1.114245
+2025-09-04 13:38:58 INFO src [Eval] thr=0.408, hidden=30, k=6, MRE=1.030264
+2025-09-04 13:38:58 INFO src [Eval] thr=0.408, hidden=30, k=5, MRE=0.017328
+2025-09-04 13:38:58 INFO src 
+2025-09-04 13:38:58 INFO src distmod_4 done in 83.607s
+2025-09-04 13:38:58 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:39:04 INFO src [Eval] thr=0.765, hidden=32, k=5, MRE=0.623544
+2025-09-04 13:39:04 INFO src [Eval] thr=0.765, hidden=32, k=5, MRE=1.294385
+2025-09-04 13:39:04 INFO src [Eval] thr=0.765, hidden=32, k=5, MRE=0.668057
+2025-09-04 13:39:04 INFO src [Eval] thr=0.765, hidden=32, k=5, MRE=0.025595
+2025-09-04 13:39:04 INFO src 
+2025-09-04 13:39:04 INFO src distmod_4 done in 89.691s
+2025-09-04 13:39:18 INFO src [Eval] thr=0.380, hidden=130, k=6, MRE=0.475420
+2025-09-04 13:39:18 INFO src [Eval] thr=0.380, hidden=130, k=6, MRE=0.999378
+2025-09-04 13:39:18 INFO src [Eval] thr=0.380, hidden=130, k=6, MRE=1.450705
+2025-09-04 13:39:18 INFO src [Eval] thr=0.380, hidden=130, k=5, MRE=0.014299
+2025-09-04 13:39:18 INFO src 
+2025-09-04 13:39:18 INFO src distmod_4 done in 103.317s
+2025-09-04 13:39:19 INFO src [Eval] thr=0.796, hidden=189, k=5, MRE=0.549915
+2025-09-04 13:39:19 INFO src [Eval] thr=0.796, hidden=189, k=5, MRE=0.917577
+2025-09-04 13:39:19 INFO src [Eval] thr=0.796, hidden=189, k=5, MRE=0.576384
+2025-09-04 13:39:19 INFO src [Eval] thr=0.796, hidden=189, k=5, MRE=0.010033
+2025-09-04 13:39:19 INFO src 
+2025-09-04 13:39:19 INFO src distmod_4 done in 104.352s
+2025-09-04 13:40:19 INFO src [Eval] thr=0.587, hidden=95, k=5, MRE=0.778847
+2025-09-04 13:40:19 INFO src [Eval] thr=0.587, hidden=95, k=5, MRE=1.203025
+2025-09-04 13:40:19 INFO src [Eval] thr=0.587, hidden=95, k=5, MRE=0.913990
+2025-09-04 13:40:19 INFO src [Eval] thr=0.587, hidden=95, k=5, MRE=0.021000
+2025-09-04 13:40:19 INFO src 
+2025-09-04 13:40:19 INFO src distmod_4 done in 81.149s
+2025-09-04 13:40:20 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:40:20 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:40:20 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:40:20 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:40:20 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:40:20 INFO src iter=2 evals_total=15 best_current=[0.150095,0.103343,0.234735,0.002815] dt_iter=165.851s dt_total=529.432s
+2025-09-04 13:40:21 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:40:21 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:40:21 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:40:21 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:42:07 INFO src [Eval] thr=0.197, hidden=106, k=16, MRE=0.219871
+2025-09-04 13:42:07 INFO src [Eval] thr=0.197, hidden=106, k=28, MRE=0.468104
+2025-09-04 13:42:07 INFO src [Eval] thr=0.197, hidden=106, k=16, MRE=0.481239
+2025-09-04 13:42:07 INFO src [Eval] thr=0.197, hidden=106, k=5, MRE=0.028843
+2025-09-04 13:42:07 INFO src 
+2025-09-04 13:42:07 INFO src distmod_4 done in 106.699s
+2025-09-04 13:42:07 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:42:13 INFO src [Eval] thr=0.141, hidden=121, k=28, MRE=0.585803
+2025-09-04 13:42:13 INFO src [Eval] thr=0.141, hidden=121, k=32, MRE=0.108812
+2025-09-04 13:42:13 INFO src [Eval] thr=0.141, hidden=121, k=27, MRE=0.592261
+2025-09-04 13:42:13 INFO src [Eval] thr=0.141, hidden=121, k=11, MRE=0.009283
+2025-09-04 13:42:13 INFO src 
+2025-09-04 13:42:13 INFO src distmod_4 done in 112.209s
+2025-09-04 13:42:13 INFO src [Eval] thr=0.665, hidden=162, k=5, MRE=0.565032
+2025-09-04 13:42:13 INFO src [Eval] thr=0.665, hidden=162, k=5, MRE=1.042093
+2025-09-04 13:42:13 INFO src [Eval] thr=0.665, hidden=162, k=5, MRE=0.549130
+2025-09-04 13:42:13 INFO src [Eval] thr=0.665, hidden=162, k=5, MRE=0.012568
+2025-09-04 13:42:13 INFO src 
+2025-09-04 13:42:13 INFO src distmod_4 done in 112.678s
+2025-09-04 13:42:22 INFO src [Eval] thr=0.022, hidden=165, k=36, MRE=0.259155
+2025-09-04 13:42:22 INFO src [Eval] thr=0.022, hidden=165, k=36, MRE=0.062449
+2025-09-04 13:42:22 INFO src [Eval] thr=0.022, hidden=165, k=36, MRE=0.593059
+2025-09-04 13:42:22 INFO src [Eval] thr=0.022, hidden=165, k=36, MRE=0.003594
+2025-09-04 13:42:22 INFO src 
+2025-09-04 13:42:22 INFO src distmod_4 done in 121.707s
+2025-09-04 13:43:22 INFO src [Eval] thr=0.256, hidden=138, k=9, MRE=0.466818
+2025-09-04 13:43:22 INFO src [Eval] thr=0.256, hidden=138, k=13, MRE=0.459733
+2025-09-04 13:43:22 INFO src [Eval] thr=0.256, hidden=138, k=9, MRE=0.607399
+2025-09-04 13:43:22 INFO src [Eval] thr=0.256, hidden=138, k=5, MRE=0.018862
+2025-09-04 13:43:22 INFO src 
+2025-09-04 13:43:22 INFO src distmod_4 done in 74.696s
+2025-09-04 13:43:22 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:43:22 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:43:22 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:43:22 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:43:22 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:43:22 INFO src iter=3 evals_total=20 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=182.608s dt_total=712.041s
+2025-09-04 13:43:23 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:43:23 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:43:23 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:43:23 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:44:49 INFO src [Eval] thr=0.878, hidden=39, k=5, MRE=0.414582
+2025-09-04 13:44:49 INFO src [Eval] thr=0.878, hidden=39, k=5, MRE=1.131426
+2025-09-04 13:44:49 INFO src [Eval] thr=0.878, hidden=39, k=5, MRE=0.607038
+2025-09-04 13:44:49 INFO src [Eval] thr=0.878, hidden=39, k=5, MRE=0.017455
+2025-09-04 13:44:49 INFO src 
+2025-09-04 13:44:49 INFO src distmod_4 done in 85.796s
+2025-09-04 13:44:49 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:44:49 INFO src [Eval] thr=0.137, hidden=14, k=28, MRE=0.464007
+2025-09-04 13:44:49 INFO src [Eval] thr=0.137, hidden=14, k=32, MRE=0.115512
+2025-09-04 13:44:49 INFO src [Eval] thr=0.137, hidden=14, k=28, MRE=0.265809
+2025-09-04 13:44:49 INFO src [Eval] thr=0.137, hidden=14, k=12, MRE=0.005303
+2025-09-04 13:44:49 INFO src 
+2025-09-04 13:44:49 INFO src distmod_4 done in 86.227s
+2025-09-04 13:45:00 INFO src [Eval] thr=0.894, hidden=78, k=5, MRE=0.491583
+2025-09-04 13:45:00 INFO src [Eval] thr=0.894, hidden=78, k=5, MRE=1.099908
+2025-09-04 13:45:00 INFO src [Eval] thr=0.894, hidden=78, k=5, MRE=0.501030
+2025-09-04 13:45:00 INFO src [Eval] thr=0.894, hidden=78, k=5, MRE=0.030151
+2025-09-04 13:45:00 INFO src 
+2025-09-04 13:45:00 INFO src distmod_4 done in 96.264s
+2025-09-04 13:45:03 INFO src [Eval] thr=0.360, hidden=81, k=6, MRE=0.542189
+2025-09-04 13:45:03 INFO src [Eval] thr=0.360, hidden=81, k=6, MRE=0.900319
+2025-09-04 13:45:03 INFO src [Eval] thr=0.360, hidden=81, k=6, MRE=1.551234
+2025-09-04 13:45:03 INFO src [Eval] thr=0.360, hidden=81, k=5, MRE=0.022989
+2025-09-04 13:45:03 INFO src 
+2025-09-04 13:45:03 INFO src distmod_4 done in 99.630s
+2025-09-04 13:46:02 INFO src [Eval] thr=0.567, hidden=53, k=5, MRE=0.560384
+2025-09-04 13:46:02 INFO src [Eval] thr=0.567, hidden=53, k=5, MRE=1.154378
+2025-09-04 13:46:02 INFO src [Eval] thr=0.567, hidden=53, k=5, MRE=0.722979
+2025-09-04 13:46:02 INFO src [Eval] thr=0.567, hidden=53, k=5, MRE=0.029905
+2025-09-04 13:46:02 INFO src 
+2025-09-04 13:46:02 INFO src distmod_4 done in 73.302s
+2025-09-04 13:46:02 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:46:02 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:46:02 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:46:02 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:46:02 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:46:03 INFO src iter=4 evals_total=25 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=160.487s dt_total=872.529s
+2025-09-04 13:46:04 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:46:04 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:46:04 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:46:04 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:47:24 INFO src [Eval] thr=0.842, hidden=20, k=5, MRE=0.539714
+2025-09-04 13:47:24 INFO src [Eval] thr=0.842, hidden=20, k=5, MRE=1.255989
+2025-09-04 13:47:24 INFO src [Eval] thr=0.842, hidden=20, k=5, MRE=0.711849
+2025-09-04 13:47:24 INFO src [Eval] thr=0.842, hidden=20, k=5, MRE=0.015606
+2025-09-04 13:47:24 INFO src 
+2025-09-04 13:47:24 INFO src distmod_4 done in 79.903s
+2025-09-04 13:47:24 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:47:36 INFO src [Eval] thr=0.961, hidden=53, k=5, MRE=0.560384
+2025-09-04 13:47:36 INFO src [Eval] thr=0.961, hidden=53, k=5, MRE=1.154378
+2025-09-04 13:47:36 INFO src [Eval] thr=0.961, hidden=53, k=5, MRE=0.722979
+2025-09-04 13:47:36 INFO src [Eval] thr=0.961, hidden=53, k=5, MRE=0.029905
+2025-09-04 13:47:36 INFO src 
+2025-09-04 13:47:36 INFO src distmod_4 done in 91.893s
+2025-09-04 13:47:38 INFO src [Eval] thr=0.825, hidden=55, k=5, MRE=0.882769
+2025-09-04 13:47:38 INFO src [Eval] thr=0.825, hidden=55, k=5, MRE=1.215012
+2025-09-04 13:47:38 INFO src [Eval] thr=0.825, hidden=55, k=5, MRE=0.581775
+2025-09-04 13:47:38 INFO src [Eval] thr=0.825, hidden=55, k=5, MRE=0.021304
+2025-09-04 13:47:38 INFO src 
+2025-09-04 13:47:38 INFO src distmod_4 done in 94.324s
+2025-09-04 13:47:39 INFO src [Eval] thr=0.759, hidden=113, k=5, MRE=0.396622
+2025-09-04 13:47:39 INFO src [Eval] thr=0.759, hidden=113, k=5, MRE=1.725495
+2025-09-04 13:47:39 INFO src [Eval] thr=0.759, hidden=113, k=5, MRE=0.621361
+2025-09-04 13:47:39 INFO src [Eval] thr=0.759, hidden=113, k=5, MRE=0.027570
+2025-09-04 13:47:39 INFO src 
+2025-09-04 13:47:39 INFO src distmod_4 done in 95.611s
+2025-09-04 13:48:50 INFO src [Eval] thr=0.847, hidden=60, k=5, MRE=0.585503
+2025-09-04 13:48:50 INFO src [Eval] thr=0.847, hidden=60, k=5, MRE=1.811637
+2025-09-04 13:48:50 INFO src [Eval] thr=0.847, hidden=60, k=5, MRE=0.602987
+2025-09-04 13:48:50 INFO src [Eval] thr=0.847, hidden=60, k=5, MRE=0.028307
+2025-09-04 13:48:50 INFO src 
+2025-09-04 13:48:50 INFO src distmod_4 done in 86.507s
+2025-09-04 13:48:50 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:48:50 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:48:50 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:48:50 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:48:50 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:48:51 INFO src iter=5 evals_total=30 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=167.795s dt_total=1040.325s
+2025-09-04 13:48:52 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:48:52 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:48:52 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:48:52 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:50:13 INFO src [Eval] thr=0.483, hidden=32, k=5, MRE=0.623544
+2025-09-04 13:50:13 INFO src [Eval] thr=0.483, hidden=32, k=5, MRE=1.294385
+2025-09-04 13:50:13 INFO src [Eval] thr=0.483, hidden=32, k=5, MRE=0.668057
+2025-09-04 13:50:13 INFO src [Eval] thr=0.483, hidden=32, k=5, MRE=0.025595
+2025-09-04 13:50:13 INFO src 
+2025-09-04 13:50:13 INFO src distmod_4 done in 81.833s
+2025-09-04 13:50:13 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:50:37 INFO src [Eval] thr=0.941, hidden=121, k=5, MRE=0.555572
+2025-09-04 13:50:37 INFO src [Eval] thr=0.941, hidden=121, k=5, MRE=2.077098
+2025-09-04 13:50:37 INFO src [Eval] thr=0.941, hidden=121, k=5, MRE=0.651491
+2025-09-04 13:50:37 INFO src [Eval] thr=0.941, hidden=121, k=5, MRE=0.017955
+2025-09-04 13:50:37 INFO src 
+2025-09-04 13:50:37 INFO src distmod_4 done in 105.944s
+2025-09-04 13:50:41 INFO src [Eval] thr=0.855, hidden=125, k=5, MRE=0.490438
+2025-09-04 13:50:41 INFO src [Eval] thr=0.855, hidden=125, k=5, MRE=1.415422
+2025-09-04 13:50:41 INFO src [Eval] thr=0.855, hidden=125, k=5, MRE=0.706955
+2025-09-04 13:50:41 INFO src [Eval] thr=0.855, hidden=125, k=5, MRE=0.018556
+2025-09-04 13:50:41 INFO src 
+2025-09-04 13:50:41 INFO src distmod_4 done in 109.063s
+2025-09-04 13:50:45 INFO src [Eval] thr=0.304, hidden=139, k=7, MRE=0.556823
+2025-09-04 13:50:45 INFO src [Eval] thr=0.304, hidden=139, k=10, MRE=0.319786
+2025-09-04 13:50:45 INFO src [Eval] thr=0.304, hidden=139, k=7, MRE=0.602701
+2025-09-04 13:50:45 INFO src [Eval] thr=0.304, hidden=139, k=5, MRE=0.027265
+2025-09-04 13:50:45 INFO src 
+2025-09-04 13:50:45 INFO src distmod_4 done in 113.482s
+2025-09-04 13:51:40 INFO src [Eval] thr=0.646, hidden=104, k=5, MRE=0.467355
+2025-09-04 13:51:40 INFO src [Eval] thr=0.646, hidden=104, k=5, MRE=1.358203
+2025-09-04 13:51:40 INFO src [Eval] thr=0.646, hidden=104, k=5, MRE=0.610378
+2025-09-04 13:51:40 INFO src [Eval] thr=0.646, hidden=104, k=5, MRE=0.039132
+2025-09-04 13:51:40 INFO src 
+2025-09-04 13:51:40 INFO src distmod_4 done in 86.590s
+2025-09-04 13:51:40 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:51:40 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:51:40 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:51:40 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:51:40 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:51:41 INFO src iter=6 evals_total=35 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=170.309s dt_total=1210.636s
+2025-09-04 13:51:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:51:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:51:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:51:42 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:53:11 INFO src [Eval] thr=0.326, hidden=10, k=7, MRE=0.571930
+2025-09-04 13:53:11 INFO src [Eval] thr=0.326, hidden=10, k=9, MRE=0.262985
+2025-09-04 13:53:11 INFO src [Eval] thr=0.326, hidden=10, k=7, MRE=0.961062
+2025-09-04 13:53:11 INFO src [Eval] thr=0.326, hidden=10, k=5, MRE=0.027094
+2025-09-04 13:53:11 INFO src 
+2025-09-04 13:53:11 INFO src distmod_4 done in 89.325s
+2025-09-04 13:53:11 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:53:25 INFO src [Eval] thr=0.598, hidden=116, k=5, MRE=0.572755
+2025-09-04 13:53:25 INFO src [Eval] thr=0.598, hidden=116, k=5, MRE=1.031518
+2025-09-04 13:53:25 INFO src [Eval] thr=0.598, hidden=116, k=5, MRE=0.644533
+2025-09-04 13:53:25 INFO src [Eval] thr=0.598, hidden=116, k=5, MRE=0.038830
+2025-09-04 13:53:25 INFO src 
+2025-09-04 13:53:25 INFO src distmod_4 done in 103.126s
+2025-09-04 13:53:36 INFO src [Eval] thr=0.846, hidden=199, k=5, MRE=0.809687
+2025-09-04 13:53:36 INFO src [Eval] thr=0.846, hidden=199, k=5, MRE=0.798095
+2025-09-04 13:53:36 INFO src [Eval] thr=0.846, hidden=199, k=5, MRE=0.990389
+2025-09-04 13:53:36 INFO src [Eval] thr=0.846, hidden=199, k=5, MRE=0.019196
+2025-09-04 13:53:36 INFO src 
+2025-09-04 13:53:36 INFO src distmod_4 done in 114.021s
+2025-09-04 13:53:39 INFO src [Eval] thr=0.528, hidden=189, k=5, MRE=0.549915
+2025-09-04 13:53:39 INFO src [Eval] thr=0.528, hidden=189, k=5, MRE=0.917577
+2025-09-04 13:53:39 INFO src [Eval] thr=0.528, hidden=189, k=5, MRE=0.576384
+2025-09-04 13:53:39 INFO src [Eval] thr=0.528, hidden=189, k=5, MRE=0.010033
+2025-09-04 13:53:39 INFO src 
+2025-09-04 13:53:39 INFO src distmod_4 done in 117.273s
+2025-09-04 13:54:46 INFO src [Eval] thr=0.574, hidden=129, k=5, MRE=0.524308
+2025-09-04 13:54:46 INFO src [Eval] thr=0.574, hidden=129, k=5, MRE=1.290516
+2025-09-04 13:54:46 INFO src [Eval] thr=0.574, hidden=129, k=5, MRE=0.572509
+2025-09-04 13:54:46 INFO src [Eval] thr=0.574, hidden=129, k=5, MRE=0.014313
+2025-09-04 13:54:46 INFO src 
+2025-09-04 13:54:46 INFO src distmod_4 done in 94.455s
+2025-09-04 13:54:46 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:54:46 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:54:46 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:54:46 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:54:46 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:54:46 INFO src iter=7 evals_total=40 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=185.412s dt_total=1396.050s
+2025-09-04 13:54:47 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:54:47 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:54:47 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:54:47 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:56:02 INFO src [Eval] thr=0.938, hidden=10, k=5, MRE=0.553957
+2025-09-04 13:56:02 INFO src [Eval] thr=0.938, hidden=10, k=5, MRE=0.965418
+2025-09-04 13:56:02 INFO src [Eval] thr=0.938, hidden=10, k=5, MRE=0.586343
+2025-09-04 13:56:02 INFO src [Eval] thr=0.938, hidden=10, k=5, MRE=0.027094
+2025-09-04 13:56:02 INFO src 
+2025-09-04 13:56:02 INFO src distmod_4 done in 74.942s
+2025-09-04 13:56:02 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:56:42 INFO src [Eval] thr=0.191, hidden=119, k=17, MRE=0.330458
+2025-09-04 13:56:42 INFO src [Eval] thr=0.191, hidden=119, k=28, MRE=0.262875
+2025-09-04 13:56:42 INFO src [Eval] thr=0.191, hidden=119, k=17, MRE=0.329577
+2025-09-04 13:56:42 INFO src [Eval] thr=0.191, hidden=119, k=5, MRE=0.024087
+2025-09-04 13:56:42 INFO src 
+2025-09-04 13:56:42 INFO src distmod_4 done in 114.944s
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f40d09deac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+2025-09-04 13:56:44 INFO src [Eval] thr=0.020, hidden=125, k=36, MRE=0.328027
+2025-09-04 13:56:44 INFO src [Eval] thr=0.020, hidden=125, k=36, MRE=0.086097
+2025-09-04 13:56:44 INFO src [Eval] thr=0.020, hidden=125, k=36, MRE=0.294507
+2025-09-04 13:56:44 INFO src [Eval] thr=0.020, hidden=125, k=36, MRE=0.005673
+2025-09-04 13:56:44 INFO src 
+2025-09-04 13:56:44 INFO src distmod_4 done in 116.369s
+2025-09-04 13:56:46 INFO src [Eval] thr=0.410, hidden=177, k=6, MRE=0.586606
+2025-09-04 13:56:46 INFO src [Eval] thr=0.410, hidden=177, k=6, MRE=1.293352
+2025-09-04 13:56:46 INFO src [Eval] thr=0.410, hidden=177, k=6, MRE=0.866563
+2025-09-04 13:56:46 INFO src [Eval] thr=0.410, hidden=177, k=5, MRE=0.012728
+2025-09-04 13:56:46 INFO src 
+2025-09-04 13:56:46 INFO src distmod_4 done in 118.302s
+2025-09-04 13:57:45 INFO src [Eval] thr=0.390, hidden=108, k=6, MRE=0.505728
+2025-09-04 13:57:45 INFO src [Eval] thr=0.390, hidden=108, k=6, MRE=1.235298
+2025-09-04 13:57:45 INFO src [Eval] thr=0.390, hidden=108, k=6, MRE=0.529351
+2025-09-04 13:57:45 INFO src [Eval] thr=0.390, hidden=108, k=5, MRE=0.028477
+2025-09-04 13:57:45 INFO src 
+2025-09-04 13:57:45 INFO src distmod_4 done in 102.879s
+2025-09-04 13:57:45 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:57:45 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:57:45 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:57:45 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:57:45 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 13:57:46 INFO src iter=8 evals_total=45 best_current=[0.150095,0.062449,0.234735,0.002815] dt_iter=179.702s dt_total=1575.813s
+2025-09-04 13:58:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:58:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:58:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:58:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:59:32 INFO src [Eval] thr=0.694, hidden=57, k=5, MRE=0.513410
+2025-09-04 13:59:32 INFO src [Eval] thr=0.694, hidden=57, k=5, MRE=0.865775
+2025-09-04 13:59:32 INFO src [Eval] thr=0.694, hidden=57, k=5, MRE=0.951510
+2025-09-04 13:59:32 INFO src [Eval] thr=0.694, hidden=57, k=5, MRE=0.018719
+2025-09-04 13:59:32 INFO src 
+2025-09-04 13:59:32 INFO src distmod_4 done in 91.600s
+2025-09-04 13:59:32 INFO src distmod_4 start n=1 targets=4
+2025-09-04 13:59:32 INFO src [Eval] thr=0.562, hidden=57, k=5, MRE=0.513410
+2025-09-04 13:59:32 INFO src [Eval] thr=0.562, hidden=57, k=5, MRE=0.865775
+2025-09-04 13:59:32 INFO src [Eval] thr=0.562, hidden=57, k=5, MRE=0.951510
+2025-09-04 13:59:32 INFO src [Eval] thr=0.562, hidden=57, k=5, MRE=0.018719
+2025-09-04 13:59:32 INFO src 
+2025-09-04 13:59:32 INFO src distmod_4 done in 91.692s
+2025-09-04 13:59:50 INFO src [Eval] thr=0.946, hidden=164, k=5, MRE=0.487977
+2025-09-04 13:59:50 INFO src [Eval] thr=0.946, hidden=164, k=5, MRE=1.054829
+2025-09-04 13:59:50 INFO src [Eval] thr=0.946, hidden=164, k=5, MRE=0.529192
+2025-09-04 13:59:50 INFO src [Eval] thr=0.946, hidden=164, k=5, MRE=0.021084
+2025-09-04 13:59:50 INFO src 
+2025-09-04 13:59:50 INFO src distmod_4 done in 109.032s
+2025-09-04 13:59:56 INFO src [Eval] thr=0.027, hidden=161, k=36, MRE=0.147520
+2025-09-04 13:59:56 INFO src [Eval] thr=0.027, hidden=161, k=36, MRE=0.284912
+2025-09-04 13:59:56 INFO src [Eval] thr=0.027, hidden=161, k=36, MRE=0.618334
+2025-09-04 13:59:56 INFO src [Eval] thr=0.027, hidden=161, k=36, MRE=0.003058
+2025-09-04 13:59:56 INFO src 
+2025-09-04 13:59:56 INFO src distmod_4 done in 115.714s
+2025-09-04 14:00:58 INFO src [Eval] thr=0.557, hidden=110, k=5, MRE=0.587494
+2025-09-04 14:00:58 INFO src [Eval] thr=0.557, hidden=110, k=5, MRE=1.390447
+2025-09-04 14:00:58 INFO src [Eval] thr=0.557, hidden=110, k=5, MRE=0.533744
+2025-09-04 14:00:58 INFO src [Eval] thr=0.557, hidden=110, k=5, MRE=0.013755
+2025-09-04 14:00:58 INFO src 
+2025-09-04 14:00:58 INFO src distmod_4 done in 85.866s
+2025-09-04 14:00:58 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:00:58 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:00:58 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:00:58 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:00:58 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:00:59 INFO src iter=9 evals_total=50 best_current=[0.14752 ,0.062449,0.234735,0.002815] dt_iter=192.610s dt_total=1768.426s
+2025-09-04 14:01:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 14:01:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 14:01:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 14:01:00 INFO src distmod_4 start n=1 targets=4
+2025-09-04 14:02:26 INFO src [Eval] thr=0.779, hidden=44, k=5, MRE=0.557186
+2025-09-04 14:02:26 INFO src [Eval] thr=0.779, hidden=44, k=5, MRE=0.894778
+2025-09-04 14:02:26 INFO src [Eval] thr=0.779, hidden=44, k=5, MRE=0.740197
+2025-09-04 14:02:26 INFO src [Eval] thr=0.779, hidden=44, k=5, MRE=0.014275
+2025-09-04 14:02:26 INFO src 
+2025-09-04 14:02:26 INFO src distmod_4 done in 86.760s
+2025-09-04 14:02:26 INFO src distmod_4 start n=1 targets=4
+2025-09-04 14:02:46 INFO src [Eval] thr=0.100, hidden=52, k=30, MRE=0.283504
+2025-09-04 14:02:46 INFO src [Eval] thr=0.100, hidden=52, k=34, MRE=0.079923
+2025-09-04 14:02:46 INFO src [Eval] thr=0.100, hidden=52, k=30, MRE=0.398227
+2025-09-04 14:02:46 INFO src [Eval] thr=0.100, hidden=52, k=23, MRE=0.010457
+2025-09-04 14:02:46 INFO src 
+2025-09-04 14:02:46 INFO src distmod_4 done in 106.270s
+Exception ignored in: <function ResourceTracker.__del__ at 0x7ff589ddaac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+2025-09-04 14:02:55 INFO src [Eval] thr=0.601, hidden=88, k=5, MRE=0.502506
+2025-09-04 14:02:55 INFO src [Eval] thr=0.601, hidden=88, k=5, MRE=1.207398
+2025-09-04 14:02:55 INFO src [Eval] thr=0.601, hidden=88, k=5, MRE=0.609840
+2025-09-04 14:02:55 INFO src [Eval] thr=0.601, hidden=88, k=5, MRE=0.013333
+2025-09-04 14:02:55 INFO src 
+2025-09-04 14:02:55 INFO src distmod_4 done in 115.601s
+2025-09-04 14:02:56 INFO src [Eval] thr=0.573, hidden=147, k=5, MRE=0.585733
+2025-09-04 14:02:56 INFO src [Eval] thr=0.573, hidden=147, k=5, MRE=1.047698
+2025-09-04 14:02:56 INFO src [Eval] thr=0.573, hidden=147, k=5, MRE=1.244594
+2025-09-04 14:02:56 INFO src [Eval] thr=0.573, hidden=147, k=5, MRE=0.013059
+2025-09-04 14:02:56 INFO src 
+2025-09-04 14:02:56 INFO src distmod_4 done in 116.157s
+2025-09-04 14:03:59 INFO src [Eval] thr=0.513, hidden=83, k=5, MRE=0.530172
+2025-09-04 14:03:59 INFO src [Eval] thr=0.513, hidden=83, k=5, MRE=1.322909
+2025-09-04 14:03:59 INFO src [Eval] thr=0.513, hidden=83, k=5, MRE=0.587689
+2025-09-04 14:03:59 INFO src [Eval] thr=0.513, hidden=83, k=5, MRE=0.020185
+2025-09-04 14:03:59 INFO src 
+2025-09-04 14:03:59 INFO src distmod_4 done in 92.782s
+2025-09-04 14:03:59 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:03:59 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:03:59 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:03:59 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:03:59 DEBUG src ref_model_zero called batch=1 splits=4
+2025-09-04 14:04:00 INFO src iter=10 evals_total=55 best_current=[0.14752 ,0.062449,0.234735,0.002815] dt_iter=181.404s dt_total=1949.831s
+2025-09-04 14:04:00 INFO src optimizer_vpbo done total_evals=55 total_time=1949.833s
+human health - total thr 0.027 hidden 161 MRE 0.1475196326336562
+ecosystem quality - total thr 0.022 hidden 165 MRE 0.06244881118700339
+resources - total thr 0.216 hidden 79 MRE 0.23473544777000524
+Cost thr 0.019 hidden 200 MRE 0.00281482823759533
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f97df05eac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fc29505aac0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/opt/conda/lib/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
