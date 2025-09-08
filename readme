@@ -1,114 +1,94 @@
-# Parallel_BO_Project
+````markdown
+# Multi-Target Regression Project
 
 ## Overview
-
-This project implements a parallelized Bayesian Optimization (BO) framework for multi-objective regression tasks, focusing on cost and sustainability metrics in manufacturing processes. The workflow includes data preprocessing, exploratory data analysis (EDA), feature selection using distance correlation, and parallelized optimization using custom algorithms.
-
-## Project Structure
-Parallel_BO_Project/
-│
-├── Data Processing/
-│   ├── config_data_processing.yaml
-│   ├── Data_Processing.ipynb
-│   ├── EDA.ipynb
-│   ├── pickle_generator.py
-│   ├── requirements.txt
-│   └── outputs/
-│       └── dcor_corr_graph_0.png
-│       └── outputs/
-│           └── ...
-│
-├── docs/
-│   └── MSE_Project_report.pdf
-│
-├── src/
-│   ├── algos.py
-│   ├── config_work.yaml
-│   ├── config.yaml
-│   ├── main.ipynb
-│   ├── utils.py
-│   └── __pycache__/
-│       └── ...
-│   └── logs/
-│       ├── grid_results.csv
-│       ├── run.log
-│       └── log_folder_1_splits_4_f_cores_4/
-│       └── ...
-│   └── outputs/
-│       └── ...
-
-
+This project implements a data-driven pipeline for multi-target regression, including data processing, exploratory data analysis (EDA), feature selection, and parallel Bayesian Optimization for model tuning. It leverages distance correlation for feature filtering and custom optimization algorithms.
 
 ## Key Components
 
-- **Data Processing**:  
-  - [`Data_Processing.ipynb`](Data%20Processing/Data_Processing.ipynb): Loads, cleans, concatenates, and encodes raw datasets from multiple pickles. Outputs a unified, encoded CSV for modeling.
-  - [`EDA.ipynb`](Data%20Processing/EDA.ipynb): Performs exploratory data analysis, feature/target selection, and correlation analysis (Pearson and distance correlation). Generates plots and filtered datasets for modeling.
-  - [`requirements.txt`](Data%20Processing/requirements.txt): Lists Python dependencies (e.g., `dcor`, `omegaconf`).
+### Data Processing
+- **[`Data_Processing.ipynb`](Data%20Processing/Data_Processing.ipynb)**  
+  Loads, cleans, concatenates, and encodes raw datasets from multiple pickle files. Outputs a unified, encoded CSV for modeling.
+- **[`EDA.ipynb`](Data%20Processing/EDA.ipynb)**  
+  Performs exploratory data analysis, feature/target selection, and correlation analysis (Pearson and distance correlation). Generates plots and filtered datasets for modeling.
+- **[`requirements.txt`](Data%20Processing/requirements.txt)**  
+  Lists Python dependencies (e.g., `dcor`, `omegaconf`).
 
-- **Source Code**:  
-  - [`main.ipynb`](src/main.ipynb): Main notebook for running experiments, including data loading, scaling, feature selection, and parallel Bayesian Optimization using custom algorithms.
-  - [`algos.py`](src/algos.py): Contains core algorithm implementations for optimization and modeling.
-  - [`utils.py`](src/utils.py): Utility functions for error metrics and distance correlation-based feature filtering.
+### Source Code
+- **[`main.ipynb`](src/main.ipynb)**  
+  Main notebook for running experiments, including data loading, scaling, feature selection, and parallel Bayesian Optimization.
+- **[`algos.py`](src/algos.py)**  
+  Core algorithm implementations for optimization and modeling.
+- **[`utils.py`](src/utils.py)**  
+  Utility functions for error metrics and distance correlation-based feature filtering.
 
-- **Documentation**:  
-  - [`docs/MSE_Project_report.pdf`](docs/MSE_Project_report.pdf): Project report with methodology, results, and discussion.
+### Documentation
+- **[`docs/MSE_Project_report.pdf`](docs/MSE_Project_report.pdf)**  
+  Detailed project report with methodology, results, and discussion.
 
 ## Data Workflow
 
-1. **Data Loading & Cleaning**:  
-   - Multiple pickle files are loaded and concatenated after fixing column misalignments.
-   - Non-numeric columns are encoded using label encoding.
-   - The cleaned dataset is saved as `df_encoded.csv`.
+1. **Data Loading & Cleaning**  
+   - Load multiple pickle files and concatenate after fixing column misalignments.  
+   - Encode non-numeric columns using label encoding.  
+   - Save cleaned dataset as `df_encoded.csv`.
 
-2. **Exploratory Data Analysis (EDA)**:  
-   - Statistical summaries, distributions, and correlation matrices are generated.
-   - Distance correlation is used to filter features for modeling.
+2. **Exploratory Data Analysis (EDA)**  
+   - Generate statistical summaries, distributions, and correlation matrices.  
+   - Filter features using distance correlation for modeling.
 
-3. **Feature Selection**:  
-   - Features with high distance correlation to targets are selected using functions from [`utils.py`](src/utils.py).
+3. **Feature Selection**  
+   - Select features with high distance correlation to targets using [`utils.py`](src/utils.py).
 
-4. **Modeling & Optimization**:  
-   - Data is scaled and split.
-   - Parallel Bayesian Optimization is performed to tune model hyperparameters (e.g., threshold, hidden layer size) for multi-target regression.
+4. **Modeling & Optimization**  
+   - Scale and split data.  
+   - Perform parallel Bayesian Optimization to tune hyperparameters (e.g., thresholds, hidden layer sizes) for multi-target regression.
 
 ## How to Run
 
 1. **Install Dependencies**  
    From the root directory:
    ```sh
-   pip install -r Data\ Processing/requirements.txt
-   ```
+   pip install -r "Data Processing/requirements.txt"
+````
 
-2. **Data Preparation**  
-   - Edit `config_data_processing.yaml` to set your data paths.
-   - Run [`Data_Processing.ipynb`](Data%20Processing/Data_Processing.ipynb) to generate `df_encoded.csv`.
+2. **Data Preparation**
 
-3. **Exploratory Data Analysis**  
-   - Run [`EDA.ipynb`](Data%20Processing/EDA.ipynb) for feature/target selection and correlation analysis.
+   * Edit `config_data_processing.yaml` to set data paths.
+   * Run [`Data_Processing.ipynb`](Data%20Processing/Data_Processing.ipynb) to generate `df_encoded.csv`.
 
-4. **Model Training & Optimization**  
-   - Run [`src/main.ipynb`](src/main.ipynb) to perform parallel Bayesian Optimization and evaluate results.
+3. **Exploratory Data Analysis**
+
+   * Run [`EDA.ipynb`](Data%20Processing/EDA.ipynb) for feature/target selection and correlation analysis.
+
+4. **Model Training & Optimization**
+
+   * Run [`src/main.ipynb`](src/main.ipynb) to perform parallel Bayesian Optimization and evaluate results.
 
 ## Main Functions & Scripts
 
-- **Feature Filtering**:  
-  [`dcor_filter`](src/utils.py) in [`utils.py`](src/utils.py) filters features by distance correlation.
+* **Feature Filtering**
 
-- **Optimization**:  
-  Custom BO logic is implemented in [`algos.py`](src/algos.py) and invoked from [`main.ipynb`](src/main.ipynb).
+  * `dcor_filter` in [`utils.py`](src/utils.py) filters features based on distance correlation.
+
+* **Optimization**
+
+  * Custom Bayesian Optimization logic is implemented in [`algos.py`](src/algos.py) and used in [`main.ipynb`](src/main.ipynb).
 
 ## Outputs
 
-- Filtered datasets, correlation plots, and optimization logs are saved in the `outputs/` and `logs/` directories.
-- Final results and best hyperparameters are printed and logged.
+* Filtered datasets, correlation plots, and optimization logs are saved in `outputs/` and `logs/`.
+* Final results and best hyperparameters are printed and logged.
 
 ## References
 
-- See [`docs/MSE_Project_report.pdf`](docs/MSE_Project_report.pdf) for detailed methodology and results.
+* See [`docs/MSE_Project_report.pdf`](docs/MSE_Project_report.pdf) for detailed methodology and results.
 
 ---
 
-**Note:**  
-- All code is written for Python 3.8+.
-- For large datasets, computations (especially distance correlation) may be slow; parallelization is used where possible.
+**Notes**
+
+* Compatible with Python 3.8+.
+* For large datasets, computations (especially distance correlation) may be slow; parallelization is applied where possible.
+
+
