@@ -1,0 +1,4 @@
+Best threshold: 0.055
+Best hidden size: 67
+Best per target errors: [0.06498296]
+Dataset shapes: (22, 2), (22, 1)
