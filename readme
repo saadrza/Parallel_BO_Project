@@ -1,44 +1,144 @@
-Multi-Target Regression Project
+# Parallel_BO_Project
 
-This project implements a pipeline for multi-target regression, including data processing, exploratory data analysis (EDA), feature selection, and parallel Bayesian Optimization. Distance correlation is used for feature filtering.
+Parallelized Bayesian Optimization for evaluating neural network models with feature selection using distance correlation.  
 
-Key Components
+Repository: [Parallel_BO_Project](https://github.com/saadrza/Parallel_BO_Project)
 
-Data Processing
-- Data_Processing.ipynb: Loads, cleans, concatenates, and encodes datasets; outputs df_encoded.csv.
-- EDA.ipynb: Performs EDA, correlation analysis, and feature/target selection.
-- requirements.txt: Python dependencies (dcor, omegaconf, etc.).
+---
 
-Source Code
-- main.ipynb: Runs experiments, scaling, feature selection, and parallel Bayesian Optimization.
-- algos.py: Core optimization and modeling algorithms.
-- utils.py: Utility functions including dcor_filter for feature selection.
+## Overview
 
-Documentation
-- docs/MSE_Project_report.pdf: Full report with methodology and results.
+This project implements **Variance-Partitioned Bayesian Optimization (VPBO)** with parallelization. The optimization framework is built around:
 
-Workflow
+- Multi Layer Perceptron regressors with feature selection based on **distance correlation**.
+- Gaussian Process surrogate models.
+- Acquisition functions using **Lower Confidence Bound (LCB)**.
+- Parallelization with `joblib` across both targets and candidate evaluation batches.
 
-1. Data Preparation: Load multiple pickle files, fix misaligned columns, label-encode non-numeric features, save as df_encoded.csv.
-2. EDA and Feature Selection: Generate stats, plots, and filter features using distance correlation.
-3. Modeling and Optimization: Scale data, split, and perform parallel Bayesian Optimization to tune multi-target regression models.
+The core logic is in `algos.py`, with configuration through YAML files and runnable examples in Jupyter notebooks.
 
-How to Run
+---
 
-1. Install dependencies:
-   pip install -r "Data Processing/requirements.txt"
+## Project Structure
 
-2. Edit config_data_processing.yaml to set data paths.
-3. Run Data_Processing.ipynb to generate df_encoded.csv.
-4. Run EDA.ipynb for feature/target selection and correlation analysis.
-5. Run src/main.ipynb to train models and perform Bayesian Optimization.
+.
+├── algos.py # Core Bayesian Optimization and evaluation functions
+├── config.yaml # Default configuration file
+├── config_work.yaml # Alternative configuration for experiments
+├── main.ipynb # Example notebook for running experiments
+└── utils.py # Helper functions (median_relative_error, dcor_filter, etc.)
 
-Outputs
+yaml
+Copy code
 
-- Filtered datasets, correlation plots, optimization logs are saved in outputs/ and logs/.
-- Final results and best hyperparameters are printed and logged.
+---
 
-Notes
+## Key Components
 
-- Python 3.8+ required.
-- Distance correlation computations may be slow for large datasets; parallelization is applied where possible.
+### 1. Evaluation Functions
+- **`mlp_eval`**: Trains MLP regressors with selected features, computes median relative error per target.
+- **`mlp_eval_mean`**: Aggregates errors across all targets.
+- **`distmod_4`**: Multi output objective, evaluates all targets in parallel.
+
+### 2. Acquisition Functions
+- **`LCB_AF`**: Lower Confidence Bound acquisition with optional reference model correction.
+
+### 3. Optimizer
+- **`BO`**: Variance Partitioned Bayesian Optimizer.
+  - Fits Gaussian Process surrogates per partition.
+  - Iteratively proposes candidate solutions by minimizing acquisition functions.
+  - Supports multiple cores for evaluation and acquisition.
+
+---
+
+## Requirements
+
+The following Python packages are required:
+
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `scipy`
+- `joblib`
+- `torch`
+- `dcor`
+- `pyyaml`
+- `notebook` (for running `main.ipynb`)
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+(Create a requirements.txt using the list above if not included.)
+
+Usage
+1. Run Example Notebook
+Open main.ipynb in Jupyter Lab or Notebook:
+
+bash
+Copy code
+jupyter notebook main.ipynb
+This demonstrates how to configure and run the optimizer.
+
+2. Import as a Module
+You can import and use the optimizer directly:
+
+python
+Copy code
+from algos import BO, distmod_4
+from scipy.optimize import Bounds
+import numpy as np
+
+# Example configuration
+dim = 2
+bounds = Bounds([0.0, 0.0], [1.0, 1.0])
+optimizer = BO(distmod=distmod_4,
+               args=(X_full, Y_full),
+               dist_ref={},
+               ref_args=(),
+               dim=dim,
+               bounds=bounds)
+
+optimizer.optimizer_vpbo(trials=10,
+                         split_num=4,
+                         lim_init=np.array([0.5, 0.5]))
+Configuration
+Settings are controlled through YAML files:
+
+config.yaml – baseline configuration
+
+config_work.yaml – alternative or experimental setup
+
+Example fields:
+
+yaml
+Copy code
+trials: 20
+splits: 4
+f_cores: 2
+af_cores: 2
+ref_cores: 1
+You can modify these to adjust number of trials, splits, and parallelization.
+
+Logging
+The code uses Python's built in logging with INFO level by default. Output includes:
+
+Training progress
+
+Selected features
+
+Errors per target
+
+Optimizer iterations and timings
+
+Contributing
+Fork the repo
+
+Create a feature branch
+
+Commit and push changes
+
+Open a pull request
+
+License
+MIT License. See LICENSE for details.
