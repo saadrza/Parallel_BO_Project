@@ -261,10 +261,3 @@ The code uses Python's built in `logging` with INFO level by default. Output inc
 
 MIT License. See [LICENSE](LICENSE) for details.
 
----
-
-```
-
-Do you want me to also generate a `requirements.txt` from the imports in your code so you can include it in the repository?
-```
->>>>>>> 5b7541c53751acbb1d8d88b5c67d4d142180ba14
