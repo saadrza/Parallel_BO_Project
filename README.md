@@ -127,7 +127,11 @@ ref_cores: 1
 ```
 
 These control number of trials, splits, and parallelization.
+dim: number of decision variables or input dimensions of the optimization problem. It defines the size of the search space. Example: dim=2 means the optimizer searches in a 2D continuous space. For us, the dim is 2 since we have two variables to optimize: dCor threshold and Hidden Layer Size
 
+splits: number of partitions used in Variance Partitioned Bayesian Optimization. The dataset or objective is divided into split_num subsets, and separate surrogate models are trained per partition. Higher values give finer variance decomposition but increase computation.
+
+f_cores: number of parallel worker processes used for evaluating the objective function (e.g. training MLPs on different targets). Increasing this allows multiple evaluations to run simultaneously, speeding up optimization if enough CPU cores are available.
 ---
 
 ## Logging
