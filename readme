@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parallel_BO_Project
 
 Parallelized Bayesian Optimization for evaluating neural network models with feature selection using distance correlation.  
@@ -35,6 +36,49 @@ Copy code
 
 ## Key Components
 
+=======
+Here is a complete and editable README draft for your repository:
+
+```markdown
+# Parallel_BO_Project
+
+Parallelized Bayesian Optimization for evaluating neural network models with feature selection using distance correlation.  
+
+Repository: [Parallel_BO_Project](https://github.com/saadrza/Parallel_BO_Project)
+
+---
+
+## Overview
+
+This project implements **Variance-Partitioned Bayesian Optimization (VPBO)** with parallelization. The optimization framework is built around:
+
+- Multi Layer Perceptron regressors with feature selection based on **distance correlation**.
+- Gaussian Process surrogate models.
+- Acquisition functions using **Lower Confidence Bound (LCB)**.
+- Parallelization with `joblib` across both targets and candidate evaluation batches.
+
+The core logic is in `algos.py`, with configuration through YAML files and runnable examples in Jupyter notebooks.
+
+---
+
+## Project Structure
+
+```
+
+.
+├── algos.py              # Core Bayesian Optimization and evaluation functions
+├── config.yaml           # Default configuration file
+├── config\_work.yaml      # Alternative configuration for experiments
+├── main.ipynb            # Example notebook for running experiments
+└── utils.py              # Helper functions (median\_relative\_error, dcor\_filter, etc.)
+
+````
+
+---
+
+## Key Components
+
+>>>>>>> 5b7541c53751acbb1d8d88b5c67d4d142180ba14
 ### 1. Evaluation Functions
 - **`mlp_eval`**: Trains MLP regressors with selected features, computes median relative error per target.
 - **`mlp_eval_mean`**: Aggregates errors across all targets.
@@ -69,6 +113,7 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
+<<<<<<< HEAD
 (Create a requirements.txt using the list above if not included.)
 
 Usage
@@ -85,6 +130,31 @@ You can import and use the optimizer directly:
 
 python
 Copy code
+=======
+````
+
+*(Create a `requirements.txt` using the list above if not included.)*
+
+---
+
+## Usage
+
+### 1. Run Example Notebook
+
+Open `main.ipynb` in Jupyter Lab or Notebook:
+
+```bash
+jupyter notebook main.ipynb
+```
+
+This demonstrates how to configure and run the optimizer.
+
+### 2. Import as a Module
+
+You can import and use the optimizer directly:
+
+```python
+>>>>>>> 5b7541c53751acbb1d8d88b5c67d4d142180ba14
 from algos import BO, distmod_4
 from scipy.optimize import Bounds
 import numpy as np
@@ -102,6 +172,7 @@ optimizer = BO(distmod=distmod_4,
 optimizer.optimizer_vpbo(trials=10,
                          split_num=4,
                          lim_init=np.array([0.5, 0.5]))
+<<<<<<< HEAD
 Configuration
 Settings are controlled through YAML files:
 
@@ -113,11 +184,28 @@ Example fields:
 
 yaml
 Copy code
+=======
+```
+
+---
+
+## Configuration
+
+Settings are controlled through YAML files:
+
+* `config.yaml` – baseline configuration
+* `config_work.yaml` – alternative or experimental setup
+
+Example fields:
+
+```yaml
+>>>>>>> 5b7541c53751acbb1d8d88b5c67d4d142180ba14
 trials: 20
 splits: 4
 f_cores: 2
 af_cores: 2
 ref_cores: 1
+<<<<<<< HEAD
 You can modify these to adjust number of trials, splits, and parallelization.
 
 Logging
@@ -142,3 +230,41 @@ Open a pull request
 
 License
 MIT License. See LICENSE for details.
+=======
+```
+
+You can modify these to adjust number of trials, splits, and parallelization.
+
+---
+
+## Logging
+
+The code uses Python's built in `logging` with INFO level by default. Output includes:
+
+* Training progress
+* Selected features
+* Errors per target
+* Optimizer iterations and timings
+
+---
+
+## Contributing
+
+1. Fork the repo
+2. Create a feature branch
+3. Commit and push changes
+4. Open a pull request
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+```
+
+Do you want me to also generate a `requirements.txt` from the imports in your code so you can include it in the repository?
+```
+>>>>>>> 5b7541c53751acbb1d8d88b5c67d4d142180ba14
